@@ -1,13 +1,23 @@
 header {
-  width: 100%;
-  height: 138px;
+  display: flex;
   background-color: var(--background-tertiary-color);
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 38px 48px;
 }
 
 .logo-header {
   display: inline-block;
   width: 68px;
   height: 64px;
-  margin: 37px 0 0px 40px;
 }
+
+.menu-hamburger {
+  margin-top: 24px;
+}
+
+nav {
+  display: none;
+}
+
 
